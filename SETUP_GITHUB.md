@@ -51,11 +51,13 @@ git push -u origin feature/testing
 ## Repository Info
 
 Once pushed, your repository will be at:
+
 ```
 https://github.com/YOUR_USERNAME/Number-Guesser-Game
 ```
 
 Live demo:
+
 ```
 https://YOUR_USERNAME.github.io/Number-Guesser-Game/
 ```
@@ -71,9 +73,8 @@ https://YOUR_USERNAME.github.io/Number-Guesser-Game/
 ## Next Steps
 
 1. Create the GitHub repository (Step 1)
-2. Push the code (Step 2)  
+2. Push the code (Step 2)
 3. Enable GitHub Pages (Step 3)
 4. Verify deployment (Step 4)
 
 The deployment will happen automatically via GitHub Actions!
-
