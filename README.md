@@ -1,36 +1,33 @@
-# Number Guesser Game
+# Number Guesser Game 🎮
 
 A modern, interactive number guessing game built with React, TypeScript, and Tailwind CSS. Test your intuition and guess the secret number between 1 and 100!
 
-![Number Guesser Game](https://via.placeholder.com/800x400?text=Number+Guesser+Game)
+[![Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-orange)](https://YOUR_USERNAME.github.io/Number-Guesser-Game/)
 
 ## 🎮 Features
 
 ### Core Features
-- **Random Secret Number**: The game generates a random number between 1 and 100
-- **Interactive Interface**: Clean, intuitive UI with real-time feedback
-- **Smart Feedback**: Get hints on whether your guess is too high or too low
-- **Attempt Tracking**: Monitor your remaining attempts as you play
-- **Win/Loss Detection**: Clear indicators when you win or lose
+- ✅ **Random Secret Number**: The game generates a random number between 1 and 100
+- ✅ **Interactive Interface**: Clean, intuitive UI with real-time feedback
+- ✅ **Smart Feedback**: Get hints on whether your guess is too high or too low
+- ✅ **Attempt Tracking**: Monitor your remaining attempts as you play
+- ✅ **Win/Loss Detection**: Clear indicators when you win or lose
 
 ### Optional Features
-- **Difficulty Levels**: Choose from three difficulty settings:
+- ✅ **Difficulty Levels**: Choose from three difficulty settings:
   - **Easy**: 15 attempts
   - **Medium**: 10 attempts (default)
   - **Hard**: 5 attempts
-- **Restart Functionality**: Start a new game without reloading the page
-- **Smooth Animations**: Beautiful Tailwind CSS animations for a polished experience:
-  - Slide-in feedback messages
-  - Shake animation on invalid input
-  - Bounce-in for game over messages
-  - Hover effects on interactive elements
+- ✅ **Restart Functionality**: Start a new game without reloading the page
+- ✅ **Smooth Animations**: Beautiful Tailwind CSS animations
+- ✅ **Mobile Responsive**: Works perfectly on all devices
+- ✅ **Accessibility**: ARIA labels, keyboard navigation, semantic HTML
 
 ### Error Handling
-- Input validation for numbers within the valid range (1-100)
-- Graceful handling of non-numeric inputs
-- User-friendly error messages
-- Prevents submissions after game ends
-- Empty input detection
+- ✅ Input validation for numbers within the valid range (1-100)
+- ✅ Graceful handling of non-numeric inputs
+- ✅ User-friendly error messages
+- ✅ Prevents submissions after game ends
 
 ## 🚀 How to Play
 
@@ -46,139 +43,93 @@ A modern, interactive number guessing game built with React, TypeScript, and Tai
 
 ## 🛠️ Technology Stack
 
-- **React 18**: Modern UI library for building interactive components
-- **TypeScript**: Type-safe JavaScript for better code quality
-- **Tailwind CSS**: Utility-first CSS framework for rapid styling
-- **Vite**: Fast build tool and development server
-- **Vitest**: Modern testing framework for unit and integration tests
-- **React Testing Library**: Testing utilities for React components
+- **React 18**: Modern UI library
+- **TypeScript**: Type-safe JavaScript
+- **Tailwind CSS**: Utility-first CSS framework
+- **Vite**: Fast build tool
+- **Vitest**: Modern testing framework
+- **React Testing Library**: Component testing utilities
 
 ## 📦 Installation
 
-### Prerequisites
-- Node.js (v18 or higher)
-- npm or yarn
-
-### Steps
-
-1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/number-guesser-game.git
-cd number-guesser-game
-```
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/Number-Guesser-Game.git
+cd Number-Guesser-Game
 
-2. Install dependencies:
-```bash
+# Install dependencies
 npm install
-```
 
-3. Start the development server:
-```bash
+# Start development server
 npm run dev
 ```
 
-4. Open your browser and navigate to `http://localhost:5173`
-
 ## 🧪 Testing
 
-Run the test suite:
 ```bash
+# Run tests
 npm test
-```
 
-Run tests with coverage:
-```bash
+# Run tests with coverage
 npm run test:coverage
-```
 
-Watch mode for development:
-```bash
+# Watch mode
 npm run test:watch
 ```
 
-### Test Coverage
-- Unit tests for game logic functions
-- Component tests for all React components
-- Integration tests for complete game flow
-- Edge case testing (boundary values, invalid inputs)
-- **Coverage**: >80% code coverage
+## 🚀 Deployment
 
-## 📝 Build for Production
+### Deploy to GitHub Pages
 
-Build the project for production:
-```bash
-npm run build
-```
+1. Create a GitHub repository
+2. Push your code:
+   ```bash
+   git remote add origin https://github.com/YOUR_USERNAME/Number-Guesser-Game.git
+   git push -u origin main
+   ```
+3. Enable GitHub Pages:
+   - Go to repository Settings → Pages
+   - Source: Select "GitHub Actions"
+4. The workflow will automatically deploy!
 
-Preview the production build:
-```bash
-npm run preview
-```
+Your site will be live at: `https://YOUR_USERNAME.github.io/Number-Guesser-Game/`
 
-## 🎨 Project Structure
+## 📋 Project Structure
 
 ```
-number-guesser-game/
+Number-Guesser-Game/
 ├── src/
 │   ├── components/          # React components
-│   │   ├── GameBoard.tsx    # Main game container
+│   │   ├── GameBoard.tsx
 │   │   ├── DifficultySelector.tsx
 │   │   ├── GuessInput.tsx
 │   │   ├── FeedbackDisplay.tsx
 │   │   ├── ScoreTracker.tsx
 │   │   └── GameOver.tsx
-│   ├── types/              # TypeScript type definitions
-│   │   └── game.ts
-│   ├── utils/              # Utility functions
-│   │   └── gameLogic.ts
+│   ├── types/              # TypeScript definitions
+│   ├── utils/              # Game logic
 │   ├── test/               # Test setup
-│   │   └── setup.ts
-│   ├── App.tsx             # Root component
-│   ├── main.tsx            # Entry point
-│   └── index.css           # Global styles
+│   └── components/__tests__ # Component tests
 ├── public/                 # Static assets
-├── index.html              # HTML template
-├── vite.config.ts          # Vite configuration
-├── tailwind.config.js      # Tailwind CSS configuration
-└── README.md               # This file
+├── .github/workflows/      # CI/CD
+└── README.md
 ```
 
-## 🌐 Deployment
+## 🎯 Build
 
-The application is configured for easy deployment to multiple platforms:
-
-### GitHub Pages
 ```bash
 npm run build
-# Deploy the dist folder to GitHub Pages
 ```
 
-### Vercel
-Simply connect your GitHub repository to Vercel for automatic deployments.
+## 📝 License
 
-### Netlify
-1. Build the project: `npm run build`
-2. Deploy the `dist` folder to Netlify
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+MIT License
 
 ## 👤 Author
 
-Your Name
+**Your Name**
 - GitHub: [@yourusername](https://github.com/yourusername)
 
-## ⭐ Acknowledgments
+## 🙏 Acknowledgments
 
-- Built for Web3Bridge Cohort XIV Pre-Qualification Exercise
-- Thanks to the React and Tailwind CSS communities for amazing tools and resources
-
----
-
-**Note**: This project was developed as part of the Web3Bridge Cohort XIV Pre-Qualification Exercise, demonstrating proficiency in React, TypeScript, testing, and modern web development practices.
-
+Built for Web3Bridge Cohort XIV Pre-Qualification Exercise
