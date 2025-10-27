@@ -7,6 +7,7 @@ A modern, interactive number guessing game built with React, TypeScript, and Tai
 ## 🎮 Features
 
 ### Core Features
+
 - ✅ **Random Secret Number**: The game generates a random number between 1 and 100
 - ✅ **Interactive Interface**: Clean, intuitive UI with real-time feedback
 - ✅ **Smart Feedback**: Get hints on whether your guess is too high or too low
@@ -14,6 +15,7 @@ A modern, interactive number guessing game built with React, TypeScript, and Tai
 - ✅ **Win/Loss Detection**: Clear indicators when you win or lose
 
 ### Optional Features
+
 - ✅ **Difficulty Levels**: Choose from three difficulty settings:
   - **Easy**: 15 attempts
   - **Medium**: 10 attempts (default)
@@ -24,6 +26,7 @@ A modern, interactive number guessing game built with React, TypeScript, and Tai
 - ✅ **Accessibility**: ARIA labels, keyboard navigation, semantic HTML
 
 ### Error Handling
+
 - ✅ Input validation for numbers within the valid range (1-100)
 - ✅ Graceful handling of non-numeric inputs
 - ✅ User-friendly error messages
@@ -128,7 +131,8 @@ MIT License
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
+
+- GitHub: [@yourusername](https://github.com/kenny-svg)
 
 ## 🙏 Acknowledgments
 
