@@ -1,8 +1,9 @@
+import { describe, it, expect, beforeEach, vi } from "vitest";
 import { render, screen, fireEvent } from "@testing-library/react";
 import DifficultySelector from "../DifficultySelector";
 
 describe("DifficultySelector", () => {
-  const mockOnDifficultyChange = jest.fn();
+  const mockOnDifficultyChange = vi.fn();
 
   beforeEach(() => {
     mockOnDifficultyChange.mockClear();
