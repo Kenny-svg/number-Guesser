@@ -132,7 +132,7 @@ MIT License
 
 **Your Name**
 
-- GitHub: [@yourusername](https://github.com/kenny-svg)
+- GitHub: [@kenny-svg](https://github.com/kenny-svg)
 
 ## 🙏 Acknowledgments
 
