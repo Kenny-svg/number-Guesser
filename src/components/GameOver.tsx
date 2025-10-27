@@ -21,7 +21,7 @@ function GameOver({ gameState, onRestart }: GameOverProps) {
       <p className={`text-lg ${textColor}`}>{message}</p>
       <button
         onClick={onRestart}
-        className="mt-4 px-6 py-3 bg-purple-600 text-white rounded-lg font-semibold hover:bg-purple-700 transition-all duration-200 hover:scale-105"
+        className="mt-4 px-6 py-3 bg-orange-500 text-white rounded-lg font-semibold hover:bg-orange-600 transition-all duration-200 hover:scale-105"
       >
         Play Again
       </button>

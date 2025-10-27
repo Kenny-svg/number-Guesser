@@ -12,7 +12,7 @@ function ScoreTracker({ gameState }: ScoreTrackerProps) {
     <div className="mb-6 p-4 bg-gray-100 rounded-lg">
       <div className="flex justify-between items-center mb-2">
         <span className="text-sm font-semibold text-gray-700">
-          Remaining attempts: <span className="text-purple-600">{remainingAttempts}</span>
+          Remaining attempts: <span className="text-orange-600">{remainingAttempts}</span>
         </span>
         <span className="text-sm font-semibold text-gray-700">
           Attempts used: {gameState.attempts} / {gameState.maxAttempts}
@@ -20,7 +20,7 @@ function ScoreTracker({ gameState }: ScoreTrackerProps) {
       </div>
       <div className="w-full bg-gray-200 rounded-full h-3">
         <div 
-          className="bg-gradient-to-r from-purple-500 to-indigo-600 h-3 rounded-full transition-all duration-300"
+          className="bg-orange-500 h-3 rounded-full transition-all duration-300"
           style={{ width: `${percentageUsed}%` }}
         />
       </div>
