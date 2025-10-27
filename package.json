@@ -12,7 +12,8 @@
     "test:coverage": "vitest run --coverage",
     "test:watch": "vitest",
     "predeploy": "npm run build",
-    "deploy": "npm run build"
+    "deploy": "vite build && npm run deploy:pages",
+    "deploy:pages": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
