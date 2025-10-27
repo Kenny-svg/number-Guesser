@@ -1,6 +1,6 @@
 {
   "name": "number-guesser-game",
-  "private": true,
+  "homepage": "https://kenny-svg.github.io/Number-Guesser-Game",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
@@ -12,10 +12,10 @@
     "test:coverage": "vitest run --coverage",
     "test:watch": "vitest",
     "predeploy": "npm run build",
-    "deploy": "vite build && npm run deploy:pages",
-    "deploy:pages": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
